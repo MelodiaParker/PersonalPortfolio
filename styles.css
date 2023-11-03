@@ -1,0 +1,101 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+html {
+    background-color: ivory;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flexbox;
+    position: fixed;
+    top: 0;
+    padding: 0px 20px;
+    text-align: center;
+    text-wrap: nowrap;
+    width: 100%;
+}
+
+nav {
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+nav li {
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 15px;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+nav li a:hover {
+    background-color: black;
+    color: ivory;
+    font-weight: bold;
+    font-style: normal;
+}
+
+section {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h1:hover, h2:hover {
+    background-color: black;
+    color: ivory;
+}
+
+li {
+    list-style: none;
+    text-align: justify;
+    padding: 20px;
+}
+
+#project-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkslateblue;
+}
+
+#project-link:hover {
+    background-color: darkslateblue;
+    color: ivory;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#profile-link {
+    text-decoration: none;
+    font-style: italic;
+}
+
+#profile-link:hover {
+    background-color: navy;
+    color: ivory;
+    font-style: normal;
+    font-weight: bold;
+}
